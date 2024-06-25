@@ -187,6 +187,10 @@ app.post("/userBill/:id", (req: Request, res: Response) => {
   res.send(totalBillArray);
 });
 
+
+
+
+
 app.listen(port, () => {
   console.log(`server is running on port http://localhost:${port}`);
 });
